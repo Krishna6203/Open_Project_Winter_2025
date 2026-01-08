@@ -1,0 +1,57 @@
+{
+  "state_name": "-_ad0.2",
+  "shots_per_basis": 2000,
+  "seed": 135,
+  "measurement_model": "pauli_projective_single_qubit",
+  "meas": {
+    "X": {
+      "shots": 2000,
+      "p_true": [
+        0.052786404500042065,
+        0.947213595499958
+      ],
+      "counts": [
+        117,
+        1883
+      ],
+      "outcomes": [
+        "+1",
+        "-1"
+      ]
+    },
+    "Y": {
+      "shots": 2000,
+      "p_true": [
+        0.5,
+        0.5
+      ],
+      "counts": [
+        1006,
+        994
+      ],
+      "outcomes": [
+        "+1",
+        "-1"
+      ]
+    },
+    "Z": {
+      "shots": 2000,
+      "p_true": [
+        0.6,
+        0.39999999999999997
+      ],
+      "counts": [
+        1185,
+        815
+      ],
+      "outcomes": [
+        "+1",
+        "-1"
+      ]
+    }
+  },
+  "metrics": {
+    "fidelity": 0.9996566321312229,
+    "fro_error": 0.013992510392144587
+  }
+}

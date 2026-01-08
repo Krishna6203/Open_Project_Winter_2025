@@ -1,0 +1,57 @@
+{
+  "state_name": "0_depol0.1",
+  "shots_per_basis": 2000,
+  "seed": 128,
+  "measurement_model": "pauli_projective_single_qubit",
+  "meas": {
+    "X": {
+      "shots": 2000,
+      "p_true": [
+        0.5,
+        0.5
+      ],
+      "counts": [
+        1020,
+        980
+      ],
+      "outcomes": [
+        "+1",
+        "-1"
+      ]
+    },
+    "Y": {
+      "shots": 2000,
+      "p_true": [
+        0.5,
+        0.5
+      ],
+      "counts": [
+        1009,
+        991
+      ],
+      "outcomes": [
+        "+1",
+        "-1"
+      ]
+    },
+    "Z": {
+      "shots": 2000,
+      "p_true": [
+        0.9500000000000001,
+        0.05
+      ],
+      "counts": [
+        1908,
+        92
+      ],
+      "outcomes": [
+        "+1",
+        "-1"
+      ]
+    }
+  },
+  "metrics": {
+    "fidelity": 0.9997872386905099,
+    "fro_error": 0.016507574019219158
+  }
+}

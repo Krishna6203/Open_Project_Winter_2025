@@ -1,0 +1,8 @@
+{
+  "variant_name": "single_qubit_pauli_dataset",
+  "state_name": "1_ad0.2",
+  "measurement_model": "pauli_projective_single_qubit",
+  "shots_per_basis": 2000,
+  "seed": 108,
+  "circuit_summary": "Reference + noisy single-qubit states measured in X/Y/Z (Pauli projective)."
+}
