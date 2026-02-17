@@ -1,0 +1,31 @@
+
+Paste THIS:
+
+```tex
+\section{Results Appendix}
+
+\subsection{Fidelity}
+The fidelity between reconstructed density matrix $\rho$ and true state $\sigma$ is:
+
+\begin{equation}
+F(\rho,\sigma)=\left(\mathrm{Tr}\sqrt{\sqrt{\rho}\sigma\sqrt{\rho}}\right)^2
+\end{equation}
+
+\subsection{Trace Distance}
+\begin{equation}
+D(\rho,\sigma)=\frac{1}{2}\|\rho-\sigma\|_1
+\end{equation}
+
+\subsection{Runtime Scaling}
+Runtime complexity was evaluated as a function of qubit count.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c|c|c}
+Qubits & Fidelity & Runtime (s) \\
+\hline
+1 & High & Low \\
+2 & Moderate & Medium \\
+\end{tabular}
+\caption{Summary of experimental results}
+\end{table}
